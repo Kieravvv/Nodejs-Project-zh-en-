@@ -46,7 +46,7 @@ const server = http.createServer((request,response)=>{
     }else{
 
     }
-    //response.end("Hello from NodeJS server2"); 
+    
 });
 
 server.listen(port,ip,()=>{
